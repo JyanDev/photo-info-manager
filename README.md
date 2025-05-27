@@ -70,8 +70,6 @@ Essa abordagem me permitiu focar em entender conceitos e resolver problemas, alg
    python -m venv venv
    # No Windows:
    .\venv\Scripts\activate
-   # No Linux/macOS:
-   source venv/bin/activate
    ```
 
 3. Instale as dependências:
