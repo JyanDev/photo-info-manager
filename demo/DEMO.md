@@ -6,7 +6,9 @@ Se você quer ver o **Photo Info Manager** em ação antes de instalar ou explor
 * O funcionamento da interface
 * A leitura de metadados de fotos reais
 
-👉 **Assista agora:** [Demonstração no YouTube](https://youtu.be/Llvjz-xRh5M=SEU-LINK-AQUI)
+👉 **Assista agora:** <a href="https://youtu.be/Llvjz-xRh5M=SEU_VIDEO" target="_blank" rel="noopener noreferrer">
+demonstração em vídeo
+</a>
 
 Este vídeo é uma forma rápida e clara de entender a proposta do projeto, ideal para recrutadores e interessados em avaliar o funcionamento antes de explorar o código.
 
