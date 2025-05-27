@@ -26,8 +26,8 @@ Apesar disso, deixei **prints com exemplos práticos** do funcionamento original
 
 <p>Prints do funcionamento completo antes da expiração da API:</p>
 
-<img src="assets/eiffel_com_metadados_Photo_Info_Manager.png" alt="Exemplo 1" width="600"/>
-<img src="assets/estatuaLiberdade_com_metadados_Photo_Info_Manager.png" alt="Exemplo 2" width="600"/>
+<img src="assets/eiffel_com_metadados_Photo_Info_Manager.jpg" alt="Torre Eiffel" width="600"/>
+<img src="assets/estatuaLiberdade_com_metadados_Photo_Info_Manager.jpg" alt="Estátua da Liberdade" width="600"/>
 
 ---
 
