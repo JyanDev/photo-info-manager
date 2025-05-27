@@ -5,7 +5,7 @@ Se você baixou a versão instalável do **Photo Info Manager**, a instalação 
 ### 📦 O que você vai encontrar na pasta do instalador:
 
 * Um arquivo `.exe` (o instalador do programa)
-* Um arquivo `.txt` com instruções básicas (caso precise revisar depois)
+* Um arquivo `.mb` com instruções básicas (caso precise revisar depois)
 
 ### 🚀 Como instalar:
 
