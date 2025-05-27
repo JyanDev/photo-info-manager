@@ -6,7 +6,7 @@ O programa permite adicionar essas informações diretamente nas fotos de forma 
 
 ## 🧰 Tecnologias Utilizadas
 
-- Python 3.9
+- Python 3.x
 - PySide6
 - PIL (Pillow)
 - ExifTool (ou biblioteca equivalente para metadados)
