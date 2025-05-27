@@ -1,42 +1,48 @@
-# Photo Info Manager
+# 📸 Photo Info Manager
 
-**Photo Info Manager** é um aplicativo desktop feito em Python (PySide6) para leitura, visualização e inserção de metadados em imagens, incluindo localização GPS, data e hora.
+**Photo Info Manager** é um software demonstrativo criado em Python que permite extrair metadados de imagens (como localização, data, hora, latitude e longitude) e inseri-los visualmente na imagem. Conta com uma interface gráfica moderna e recursos como timer de uso, geolocalização via API e instalador independente para Windows.
 
-O programa permite adicionar essas informações diretamente nas fotos de forma visual, com interface animada, limite de tempo de uso e instalador compatível com Windows.
+> ⚠️ **Atenção:** Este software é **apenas demonstrativo**. Atualmente, a chave de API utilizada para obter dados de geolocalização **está expirada**, portanto, ao utilizá-lo, será exibida a mensagem **"Sem dados"** nos campos que dependem da API externa. Prints com exemplos reais de funcionamento estão incluídos neste repositório.
+
+---
 
 ## 🧰 Tecnologias Utilizadas
 
-- Python 3.x
-- PySide6
-- PIL (Pillow)
-- ExifTool (ou biblioteca equivalente para metadados)
-- JSON
-- QTimer (temporizador de uso)
+- **Python 3.12**
+- **PySide6** – Interface gráfica com animações e sombreamento
+- **Pillow** – Manipulação de imagens e sobreposição de texto
+- **OpenCage Geocode** – API de localização geográfica via coordenadas GPS
+- **ExifTags** – Extração de metadados embutidos em imagens
+- **Tkinter** – Seleção de arquivos e diretórios
+- **JSON / QTimer** – Armazenamento e controle de tempo de uso por sessão
 
-## 🎯 Funcionalidades
+---
 
-- Leitura automática de metadados (EXIF) de imagens.
-- Exibição de localização (latitude/longitude), data e hora.
-- Inserção ou modificação de metadados diretamente no arquivo.
-- Interface gráfica com animações.
-- Bloqueio de redimensionamento para manter layout estável.
-- Timer interno que registra data/hora de uso (gera `.json`).
-- Informações sobre o tempo restante exibidas na inicialização.
-- Instalador `.exe` para Windows incluso.
+## 💡 Funcionalidades
 
-## 🖼️ Interface
+- Extração automática de metadados (data, hora, localização) de imagens
+- Inserção dos dados extraídos diretamente sobre a imagem
+- Interface customizada com efeitos visuais e limitação de redimensionamento
+- Temporizador embutido com aviso de tempo restante (simulado via `.json`)
+- Criação de instalador funcional para Windows
+- Prevenção de uso contínuo após tempo limite
 
-*Adicione aqui uma ou mais imagens do seu software em funcionamento (prints da janela aberta são ideais).*
+---
 
 ## 📦 Instalação
 
-### Opção 1: Usando o Instalador
-1. Baixe o instalador [aqui](link-para-o-arquivo).
-2. Execute e siga as instruções.
+> Este projeto é compatível com sistemas **Windows** (via instalador incluído).
 
-### Opção 2: Rodar com Python (para desenvolvedores)
+1. Baixe o instalador na pasta `/installer`
+2. Execute como administrador
+3. Siga as instruções para instalar o Photo Info Manager
+
+Ou, se desejar executar o projeto diretamente:
+
+### 🔧 Execução via código-fonte
+
 ```bash
-git clone https://github.com/seu-usuario/photo-info-manager.git
+git clone https://github.com/JyanDev/photo-info-manager.git
 cd photo-info-manager
 pip install -r requirements.txt
 python main.py
