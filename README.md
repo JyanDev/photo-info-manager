@@ -22,12 +22,12 @@ Apesar disso, deixei **prints com exemplos práticos** do funcionamento original
 
 ---
 
-## 🖼️ Exemplos visuais
+<h2>🖼️ Exemplos visuais</h2>
 
-> Prints do funcionamento completo antes da expiração da API:
-- `prints/exemplo1.png`
-- `prints/exemplo2.png`
-- *(adicione aqui os arquivos reais ou links para facilitar)*
+<p>Prints do funcionamento completo antes da expiração da API:</p>
+
+<img src="assets/eiffel_com_metadados_Photo_Info_Manager.png" alt="Exemplo 1" width="600"/>
+<img src="assets/estatuaLiberdade_com_metadados_Photo_Info_Manager.png" alt="Exemplo 2" width="600"/>
 
 ---
 
